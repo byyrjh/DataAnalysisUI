@@ -1,0 +1,15 @@
+
+------------------------------------
+Acquisition: filetemplate test, index 0
+Stack imaging @ 01.09.2021 22:07: normal record 10 frames/stack, run 0 of 0, time-lapse -1.000 s
+Detection: frame  100.0 ms, exposure   89.6, pre-capture  0.200 ms, post-capture  0.100 ms, trigger: synced, sensor: area, defect correction: on
+Detection ROI [L, T, R, B]: 209, 73, 1224, 1376
+Movement: trigger synced
+z-axis: start 18000.000 um, step  0.000 um, end 18000.000 um
+f-axis: start -5.000 um, step  1.000 um, end  5.000 um
+n-axis: start 200.000 um, step  0.000 um, end 200.000 um
+Beam scanners: 
+beam y-axis (exc): free move
+beam z-axis (exc): line scan
+Excitation: lines 1,mode cw
+473 nm: intensity  1.00% ( 0.00 uW), beam Gaussian, mask none, shut off, aotf  0.000

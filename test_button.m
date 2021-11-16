@@ -1,0 +1,9 @@
+function  test_button(hObj,event,mainfigure)
+pararead=figure('Name','image information register','MenuBar','none','ToolBar','none','Tag','Inforeg');
+initPosition = pararead.Position;  % initPosition(1) initPosition(2) are x y cordinate, whose origin is located on lower left corner of screen
+pararead.Position = [initPosition(1), ...
+    initPosition(2) - 400 + initPosition(4), 300, 300];
+confirmation=uicontrol(pararead,'Style','pushbutton','String','confirm',...
+    'Units','normalized','Position',[0.4 0.1 0.2 0.1],'FontSize',12,...
+    'Callback',@(hObj,event) test_window_button(hObj,event,mainfigure));
+end
